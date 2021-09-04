@@ -235,9 +235,17 @@ function colisionPaddle () {
 }
 
 function showScore() {
+  stroke(255);
+  textAlign(CENTER);
+  textSize(16);
+  fill(color(255, 140, 0));
+  rect(120, 10, 40, 20);
   fill(255);
-  text(pointsPlayer1, 278, 26)
-  text(pointsPlayer2, 321, 26)
+  text(pointsPlayer1, 150, 26);
+  fill(color(255, 140, 0));
+  rect(420, 10, 40, 20);
+  fill(255);
+  text(pointsPlayer1, 450, 26);
 }
 
 function ballSpeed () {
