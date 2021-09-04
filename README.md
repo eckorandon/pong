@@ -1,4 +1,3 @@
-# pong
 Controls
 
 Player 1
