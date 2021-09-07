@@ -1,4 +1,4 @@
-// Made on https://p5js.org/
+// Made in https://p5js.org/
 
 //Ball size and position
 let xBall = 300;
